@@ -60,7 +60,7 @@ typedef union _G_fpos64_t {
 } fpos_t;
 
 extern FILE *const stdin;
-extern FILE *const stdout;
+extern FILE * stdout;
 extern FILE *const stderr;
 
 #define stdin  (stdin)
